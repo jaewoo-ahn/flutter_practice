@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  get:
+    dependency: "direct main"
+    description:
+      name: get
+      sha256: e4e7335ede17452b391ed3b2ede016545706c01a02292a6c97619705e7d2a85e
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.6.6"
   lints:
     dependency: transitive
     description:
@@ -115,6 +123,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+  route_manager:
+    dependency: "direct main"
+    description:
+      name: route_manager
+      sha256: "442b91edec54663441a2e497fea5ed80a5ce45d39f926d717e80074dae160dcd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1+1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -186,3 +202,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.1 <4.0.0"
+  flutter: ">=3.13.0"
